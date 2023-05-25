@@ -82,7 +82,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="410,323" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Select one option: If you have a good linkedin profile select linkedin option else select Form" OptionsString="LinkedIn;Form" Title="LinkedIn or Form">
+    <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="410,323" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Select one option: If you have a good linkedin profile select linkedin option else select Form" OptionsString="LinkedIn;Excel" Title="LinkedIn or Form">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[UserChoice]</OutArgument>
       </ui:InputDialog.Result>
